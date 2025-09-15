@@ -1,2 +1,4 @@
+[build]
+  base = "myweb"
   command = "ng build"
   publish = "dist/myweb/browser"
