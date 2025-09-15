@@ -43,7 +43,7 @@
     "swiper": "^11.2.10",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0",
-    "@netlify/angular-runtime": "^2.2.0",
+    "@netlify/angular-runtime": "^2.2.0"
   },
   "devDependencies": {
     "@angular/build": "^20.3.1",
