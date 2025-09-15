@@ -59,7 +59,7 @@ export const routes: Routes = [
   {path:'JUnit', component:JUnit},
   {path:'Jenkins', component:Jenkins},
   {path:'Automation', component:Automation}, 
-  { path: '', redirectTo: '/Home', pathMatch: 'full' }
+  { path: '', redirectTo: 'Home', pathMatch: 'full' }
   
 ];
   
