@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -36,7 +37,8 @@
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "outputPath": "dist/myweb"
           },
           "configurations": {
             "production": {
