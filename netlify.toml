@@ -1,4 +1,7 @@
 [build]
-  base = "myweb"
-  command = "ng build"
-  publish = "dist/myweb/browser"
+  command = "ng build --prod"
+  publish = "dist/myweb"
+
+[dev]
+  command = "ng serve"
+  port = 4200
